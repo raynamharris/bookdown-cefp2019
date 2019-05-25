@@ -6,7 +6,6 @@ bookdown::gitbook:
         <li><a href="./">The Community Manager’s Survival Guide"</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-    edit: https://github.com/raynamharris/bookdown-cefp2019/settings
     download: ["pdf", "epub"]
 bookdown::pdf_book:
   includes:
@@ -15,3 +14,4 @@ bookdown::pdf_book:
   citation_package: natbib
   keep_tex: yes
 bookdown::epub_book: default
+
