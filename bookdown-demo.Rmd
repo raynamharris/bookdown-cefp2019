@@ -1,0 +1,102 @@
+--- 
+title: "The Community Manager’s Survival Guide"
+author: "The AAAS Community Engagment Fellows and Staff"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+description: "A collection of stories about career paths and checklist for day-to-day activities to help you survive and thrive as a scientific community manager."
+---
+
+# Introduction
+
+The [AAAS Community Engagement Fellows Program (CEFP)](https://www.aaas.org/programs/community-engagement-fellows), generously supported by the Alfred P. Sloan Foundation, aims to improve collaboration and community building in science. It provides a year-long professional development opportunity to individuals who cultivate member engagement and collaborative relationships within scientific associations, research collaborations and other communities of scientists. This book is a collection of blog posts that describe the experiences of many professional community managers. Their stories provide a wealth of knowlege that aspiring and practicing community managers can use. 
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
+
+<!--chapter:end:index.Rmd-->
+
+# Who / what is a Community Manager? {#who}
+
+
+## Rational for community managers
+
+
+## Quick start
+
+
+You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
+
+Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
+
+```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
+par(mar = c(4, 4, .1, .1))
+plot(pressure, type = 'b', pch = 19)
+```
+
+Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
+
+```{r nice-tab, tidy=FALSE}
+knitr::kable(
+  head(iris, 20), caption = 'Here is a nice table!',
+  booktabs = TRUE
+)
+```
+
+You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].
+
+<!--chapter:end:01-intro.Rmd-->
+
+# What makes a community?
+
+## Diversity of communities
+
+## Community theory
+
+## Tools and technologies
+
+## Putting theory into practice
+
+## Communities in action
+
+<!--chapter:end:02-literature.Rmd-->
+
+# Programming and planning
+
+## creating and planning events
+
+## events how-tos
+
+
+<!--chapter:end:03-method.Rmd-->
+
+# Building Culture: Inclusive By Default
+
+## CMs as leaders
+
+##  Diversity, Equity, and Inclusion
+
+
+<!--chapter:end:04-application.Rmd-->
+
+# Conclusion
+
+We have finished a nice book.
+
+<!--chapter:end:05-summary.Rmd-->
+
+`r if (knitr:::is_html_output()) '
+# References {-}
+'`
+
+<!--chapter:end:06-references.Rmd-->
+
