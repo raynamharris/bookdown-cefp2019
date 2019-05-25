@@ -1,28 +1,17 @@
 # Who / what is a Community Manager? {#who}
 
+_“Suddenly, my passion for open and transparent communication in science became ‘in-reach,’ and I became a community manager. It was surprisingly empowering to finally have a tangible concept to assign to my new career path!”_ - Elisha Wood-Charlson
 
-## Rational for community managers
+A community engagement professional or community manager is someone who facilitates the activities of a community or collaboration and the interactions between its members. These activities may or may not take place within a dedicated online network, but likely involve the use of online tools. Community management may be considered as “in-reach” rather than “outreach” or public engagement. Typically, the role of a scientific community engagement manager (often part of the job description of a Center Director or Assistant Project Director) is to ensure cohesion in their community, yet they may have no formal training in the skills required to strategically do this. In science, the term community manager is gaining some traction within associations and within “infrastructure” organizations that serve scientists through the provision of specific tools and trainings. However, in a research collaboration context the term is rarely used and instead may be found within research development, program management, and research director roles.
+
+_“Can dedicated community management improve collaborative research? Help scientists make connections across disciplines and across institutions, regions, and nations? Spread expertise throughout associations and networks?”_ - Dan Richman
+
+In Section \@ref(rationalCM), we share data from a survey that explored why some organizations don’t have community managers, examine the funding landscape for these roles, the educational backgrounds, and formal training that community managers have. We finish by introducing some of their top challenges and further training needs. In Section \@ref(quickstart) provides a series of pieces with tips and tricks for new community managers, or those who have suddenly found themselves in such a role. Former Community Engagement Fellows share advice from their own experiences on topics including time management, setting priorities, networking, and how to work with stress. 
 
 
-## Quick start
+## Rational for community managers {#rationalCM}
 
 
-You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(who). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(program).
+## Quick start {#quickstart}
 
-Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
 
-```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
-par(mar = c(4, 4, .1, .1))
-plot(pressure, type = 'b', pch = 19)
-```
-
-Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
-
-```{r nice-tab, tidy=FALSE}
-knitr::kable(
-  head(iris, 20), caption = 'Here is a nice table!',
-  booktabs = TRUE
-)
-```
-
-You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].
